@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { HomeComponent } from './home/home.component';
 
+// Is app the parent component to home
+// Then home is the parent component to housing-location
 @Component({
   selector: 'app-root',
   standalone: true,
